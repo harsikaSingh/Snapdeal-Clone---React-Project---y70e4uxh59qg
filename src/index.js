@@ -14,8 +14,8 @@ root.render(
       redirect_uri: window.location.origin
     }}
   >
-  <Context>
+  <Context>  
       <App />
-    </Context>
+  </Context>
   </Auth0Provider>
 )
